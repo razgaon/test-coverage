@@ -6,5 +6,11 @@ module.exports = {
   resolver: '@nrwl/jest/plugins/resolver',
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageReporters: ['html'],
-  passWithNoTests: true
+  passWithNoTests: true,
+  // Indicates whether the coverage information should be collected while executing the test
+  collectCoverage: true,
+  // The directory where Jest should output its coverage files
+  coverageDirectory: 'jest-coverage',
+  // The test environment that will be used for testing
+  testEnvironment: 'node'
 };
