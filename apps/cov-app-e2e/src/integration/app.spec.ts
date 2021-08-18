@@ -1,3 +1,4 @@
+
 import { getGreeting } from '../support/app.po';
 
 describe('cov-app', () => {

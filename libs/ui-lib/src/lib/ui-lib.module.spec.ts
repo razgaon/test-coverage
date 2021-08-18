@@ -1,8 +1,8 @@
-import { async, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 import { UiLibModule } from './ui-lib.module';
 
 describe('UiLibModule', () => {
-  beforeEach(async(() => {
+  beforeEach( (() => {
     TestBed.configureTestingModule({
       imports: [UiLibModule]
     }).compileComponents();
