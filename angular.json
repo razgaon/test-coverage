@@ -91,9 +91,7 @@
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "apps/cov-app/jest.config.js",
-            "tsConfig": "apps/cov-app/tsconfig.spec.json",
-            "setupFile": "apps/cov-app/src/test-setup.ts"
+            "jestConfig": "apps/cov-app/jest.config.js"
           }
         }
       }
@@ -152,9 +150,7 @@
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "libs/ui-lib/jest.config.js",
-            "tsConfig": "libs/ui-lib/tsconfig.spec.json",
-            "setupFile": "libs/ui-lib/src/test-setup.ts"
+            "jestConfig": "libs/ui-lib/jest.config.js"
           }
         },
         "storybook": {
