@@ -27,4 +27,4 @@ jobs:
         # uses: codecov/codecov-action@51d810878be5422784e86451c0e7c14e5860ec47
         uses: codecov/codecov-action@v2.0.2
         with:
-          directory: ./coverage/reports/
+          token: ${{ secrets.CODECOV_TOKEN }}
