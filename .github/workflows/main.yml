@@ -18,8 +18,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      - name: Generate coverage report
+        run:
+          npm i
+          npm run test
       - name: Codecov
         # You may pin to the exact commit or the version.
         # uses: codecov/codecov-action@51d810878be5422784e86451c0e7c14e5860ec47
         uses: codecov/codecov-action@v2.0.2
+        with:
+          directory: ./coverage/reports/
