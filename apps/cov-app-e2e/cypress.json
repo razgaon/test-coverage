@@ -8,8 +8,5 @@
   "video": true,
   "videosFolder": "../../dist/cypress/apps/cov-app-e2e/videos",
   "screenshotsFolder": "../../dist/cypress/apps/cov-app-e2e/screenshots",
-  "chromeWebSecurity": false,
-  "reporterOptions": {
-    "reportDir": "cypress-coverage/results"
-  }
+  "chromeWebSecurity": false
 }
