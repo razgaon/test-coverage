@@ -7,7 +7,6 @@ module.exports = {
         options: { esModules: true },
         enforce: 'post',
         exclude: /\.(e2e|spec)\.ts$/
-
       }
     ]
   }
